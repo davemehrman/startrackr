@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Startrackr</title>
+  <%= stylesheet_link_tag    "application" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  	
+    <nav id="tab-bar" class="page-spots">
+  	  <li id="tab-spots">
+  	    <a href="#">Spots</a>
+  	  </li>
+      <li id="tab-sightings">
+        <a href="#">Add a sighting</a>
+      </li>
+      <li id="tab-stars">
+        <a href="#">Stars</a>
+      </li>
+  	</nav>
+<%= yield %>
+
+</body>
+</html>

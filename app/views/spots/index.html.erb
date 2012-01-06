@@ -1,0 +1,15 @@
+<ul id="spots-list" class="table-view table-action">
+<% @spots.each do |spot| %>
+  <li>
+    <a href="<%= spots_url(spot) %>">
+    <h2><%= spot.name %></h2>
+    <span class="relative-distance"><%= spot.address %></span>
+    <span class="sightings">3</span>
+    </a>
+  </li>
+<% end %>
+</ul>
+
+<br />
+
+<%= link_to 'New Spot', new_spot_path %>

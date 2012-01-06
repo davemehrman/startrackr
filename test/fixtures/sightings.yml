@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  star_id: 1
+  spot_id: 1
+
+two:
+  star_id: 1
+  spot_id: 1

@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @spot.name %>
+</p>
+
+<p>
+  <b>Address:</b>
+  <%= @spot.address %>
+</p>
+
+<p>
+  <b>Latitude:</b>
+  <%= @spot.latitude %>
+</p>
+
+<p>
+  <b>Longitude:</b>
+  <%= @spot.longitude %>
+</p>
+
+
+<%= link_to 'Edit', edit_spot_path(@spot) %> |
+<%= link_to 'Back', spots_path %>
