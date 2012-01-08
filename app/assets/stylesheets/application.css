@@ -102,3 +102,33 @@ body{
 	height: 4.95em;
 	margin: 0 0 -0.367em;
 }
+#tab-spots a:after {
+ content: url(http://localhost:3000/img/sprite.png);
+ clip: rect(0 18px 33px 0);
+ position: absolute;
+ left: 50%;
+ margin-left: -10px;
+ top: 1.833em;
+ }
+ .page-spots #tab-spots a:after {
+ 	clip: rect(0 37px 33px 18px);
+ 	margin-left: -29px;
+ }
+ #tab-stars a:after {
+ 	content: url(http://localhost:3000/img/sprite.png);
+ 	clip: rect(0 88px 33px 36px);
+ 	position: absolute;
+ 	left: 50%;
+ 	margin-left: -59px;
+ 	top: 1.833em;
+ }
+
+ #tab-sightings a:after {
+ 	content: url(http://localhost:3000/img/sprite.png);
+ 	clip: rect(0 190px 33px 140px);
+ 	position: absolute;
+ 	left: 50%;
+ 	margin-left: -163px;
+ 	top: 1.833em;
+
+ }
