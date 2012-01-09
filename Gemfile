@@ -6,7 +6,21 @@ gem 'rails', '3.1.2'
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
+gem 'geocoder'
 
+group :development do
+  gem 'rspec-rails', '2.6.1'
+  gem 'sqlite3'
+end
+
+group :test do
+  gem 'rspec-rails', '2.6.1'
+  gem 'webrat', '0.7.1'
+end
+
+group :production do
+	gem 'pg'
+end
 
 # Gems used only for assets and not required
 # in production environments by default.
