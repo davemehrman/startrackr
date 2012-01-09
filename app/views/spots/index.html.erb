@@ -1,7 +1,7 @@
 <ul id="spots-list" class="table-view table-action">
 <% @spots.each do |spot| %>
   <li>
-    <a href="<%= spots_url(spot) %>">
+    <a href="<%= spot_path(spot) %>">
     <h2><%= spot.name %></h2>
     <span class="relative-distance"><%= spot.address %></span>
     <span class="sightings">3</span>
