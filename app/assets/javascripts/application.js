@@ -7,3 +7,6 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+Modernizr.addTest('standalone', function() {
+	return window.navigator.standalone;
+}
